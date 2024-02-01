@@ -6,18 +6,22 @@
 #    By: jschott <jschott@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/09 10:31:55 by jschott           #+#    #+#              #
-#    Updated: 2023/12/22 14:39:35 by jschott          ###   ########.fr        #
+#    Updated: 2024/01/30 13:56:30 by jschott          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = fixed_point
 
 # SOURCES
-SRCS = 	main.cpp \
-		Fixed.cpp
+SRC_PATH =	src/
+SRC_FILES =	main.cpp \
+			Fixed.cpp
+SRCS := $(addprefix $(SRC_PATH), $(SRC_FILES))
 
 # INCLUDES
-HDRS = harl.hpp
+INCL_PATH =	include/
+HDRS = Fixed.hpp
+INCLDS := $(addprefix $(INCL_PATH), $(HDRS))
 
 # COMPILATION CMNDS
 CC = c++
@@ -28,7 +32,7 @@ all: $(NAME)
 
 $(NAME): $(SRCS)
 	@echo "\n\nCompiling Executable\n"
-	$(CC) $(FT_FLAGS) -o $(NAME) $(SRCS)
+	$(CC) $(FT_FLAGS) $(INCLUDES) -o $(NAME) $(SRCS)
 	@echo "\nExecutable compiled\n\n"
 
 clean: 

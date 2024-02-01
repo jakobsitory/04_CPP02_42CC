@@ -6,21 +6,24 @@
 #    By: jschott <jschott@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/09 10:31:55 by jschott           #+#    #+#              #
-#    Updated: 2024/01/30 13:56:37 by jschott          ###   ########.fr        #
+#    Updated: 2024/01/30 13:54:45 by jschott          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = fixed_point
+NAME = bsp
 
 # SOURCES
 SRC_PATH =	src/
 SRC_FILES =	main.cpp \
-			Fixed.cpp
+			Fixed.cpp \
+			Point.cpp \
+			bsp.cpp
 SRCS := $(addprefix $(SRC_PATH), $(SRC_FILES))
 
 # INCLUDES
 INCL_PATH =	include/
-HDRS = Fixed.hpp
+HDRS = 	Fixed.hpp \
+		Point.hpp
 INCLDS := $(addprefix $(INCL_PATH), $(HDRS))
 
 # COMPILATION CMNDS
