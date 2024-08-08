@@ -6,12 +6,23 @@
 /*   By: jschott <jschott@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/22 12:03:47 by jschott           #+#    #+#             */
-/*   Updated: 2024/01/30 13:57:32 by jschott          ###   ########.fr       */
+/*   Updated: 2024/08/08 12:28:33 by jschott          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/Fixed.hpp"
 
+/**
+ * @brief Main function to demonstrate the usage of Fixed class operators.
+ * 
+ * This program demonstrates the usage of comparison and arithmetic operators in the Fixed class.
+ * It creates two Fixed objects with floating-point values, then performs and displays the results of
+ * various comparison and arithmetic operations between these objects. The program outputs the results
+ * of comparing these objects using >, <, >=, <=, ==, and != operators. It also demonstrates the use of
+ * arithmetic operators +, -, *, and / on these objects. The results are displayed in a human-readable format
+ * using std::boolalpha for boolean values. The program pauses for user input between the comparison and
+ * arithmetic operations tests to allow the user to proceed at their own pace.
+ */
 int	main( void ) {
 
 	Fixed	a = Fixed( 1234.4321f );

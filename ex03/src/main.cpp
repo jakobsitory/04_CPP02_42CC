@@ -6,7 +6,7 @@
 /*   By: jschott <jschott@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/22 12:03:47 by jschott           #+#    #+#             */
-/*   Updated: 2024/01/30 13:57:32 by jschott          ###   ########.fr       */
+/*   Updated: 2024/08/08 12:32:53 by jschott          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,15 @@
 #include <cstdlib>
 #include <ctime>
 
+/**
+ * @brief Main function to check if a point is inside a triangle.
+ * 
+ * This program generates a random triangle and a random point, then checks if the point is located inside the triangle.
+ * It uses the bsp function to perform this check. The vertices of the triangle and the point are generated using random
+ * numbers. The program initializes the random number generator with the current time to ensure different results on each run.
+ * It then prints the coordinates of the point and the vertices of the triangle, and indicates whether the point is inside
+ * the triangle.
+ */
 int	main( void ) {
 	
 	std::srand(static_cast<unsigned int>(std::time(NULL)));

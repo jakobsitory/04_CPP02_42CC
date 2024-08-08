@@ -6,12 +6,22 @@
 /*   By: jschott <jschott@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/22 12:03:47 by jschott           #+#    #+#             */
-/*   Updated: 2024/01/30 13:57:32 by jschott          ###   ########.fr       */
+/*   Updated: 2024/08/08 12:22:43 by jschott          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/Fixed.hpp"
 
+/**
+ * @file main.cpp
+ * @brief Demonstrates the use of the Fixed class for fixed-point number manipulation.
+ *
+ * This program creates instances of the Fixed class and demonstrates basic operations such as instantiation,
+ * copy construction, and assignment. It showcases how to output fixed-point numbers using the overloaded
+ * insertion operator and how to convert fixed-point numbers to integer representations using the toInt method.
+ * The output of the program includes the fixed-point and integer representations of several Fixed objects,
+ * illustrating the use of constructors, assignment, and conversion methods in the Fixed class.
+ */
 int	main( void ) {
 
 	Fixed	a;
