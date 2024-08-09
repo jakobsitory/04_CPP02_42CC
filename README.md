@@ -5,7 +5,7 @@ This repository contains solutions to various C++ programming challenges from th
 ## **Modules**
 
 ### **ex00 - My First Class in Orthodox Canonical Form**
-The My First Class in Orthodox Canonical Form project involves creating a class that adheres to the Orthodox Canonical Form in C++.
+A class that adheres to the Orthodox Canonical Form in C++.
 
 **Key objectives included:**
 
@@ -14,7 +14,7 @@ The My First Class in Orthodox Canonical Form project involves creating a class 
 - Ensuring proper resource management and object copying.
 
 ### **ex01 - Towards a more useful fixed-point number class**
-The Towards a more useful fixed-point number class project involves creating a fixed-point number class with arithmetic operations.
+A more useful fixed-point number class project involves creating a fixed-point number class with arithmetic operations.
 
 **Key objectives included:**
 
@@ -23,7 +23,7 @@ The Towards a more useful fixed-point number class project involves creating a f
 - Demonstrating an understanding of operator overloading and fixed-point arithmetic.
 
 ### **ex02 - Now we’re talking**
-The Now we’re talking project involves extending the fixed-point number class to include comparison operators and other useful methods.
+Extending the fixed-point number class to include comparison operators and other useful methods.
 
 **Key objectives included:**
 
@@ -32,7 +32,7 @@ The Now we’re talking project involves extending the fixed-point number class 
 - Demonstrating an understanding of operator overloading and class design.
 
 ### **ex03 - BSP**
-The BSP (Binary Space Partitioning) project involves implementing a function to determine if a point is inside a triangle using binary space partitioning.
+A function to determine if a point is inside a triangle using binary space partitioning.
 
 **Key objectives included:**
 
@@ -46,7 +46,8 @@ To install the project, follow these steps:
 
 1. Clone the repository: **`git clone git@github.com:jakobsitory/04_CPP02_42CC.git`**
 2. Navigate to the project directory: **`cd 04_CPP02_42CC`**
-3. Build the project: **`make`**
+3. Navigate to the excercise directory : **`cd ex00`**,  **`cd ex01`** ...
+4. Build the project: **`make`**
 
 ## **Usage**
 _Follow the on-screen instructions to add and search for contacts._
